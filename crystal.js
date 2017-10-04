@@ -121,7 +121,7 @@ function youLose(){
 
   yourScore = 0;
 
-   targetScore = randomNumber(12,120);
+   targetScore = randomNumber(19,120);
  $("targetScore").text(targetScore);
  $("yourScore").text(yourScore);
 
