@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		
+			<div class="col-md-12">
+				<div class="page-header text-center">
+					<h1>Crystal Game</h1>
+				</div>	
+			</div>
+		
+	</div>
+
+<div class="row">
+	<div class="col-md-2">
+		<div class="well well-lg text-center">
+			Win:
+		<span id="win">0</span>
+		</div>
+	
+	</div>
+	
+	<div class="col-md-8">
+			<div class="well well-lg text-center">
+				<h1>How to Play!</h1>
+				<br>
+				<ol>
+					<li>You will be given a random number at the start of the game : "Target Score"</li>
+					<li>There are four crystals below : Red, Green, Yellow and Blue</li>
+					<li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+					<li>You win the game by matching your total score to the random number.</li>
+					<li>You lose the game if your total score goes above the random number.</li>
+					<li>The value of each crystal is hidden from you until you click on it.</li>
+					<li>Each time when the game starts, the game will change the values of each crystal.</li>	
+				</ol>
+
+			</div>
+			
+			
+	</div>		
+	
+<div class="col-md-2">
+		<div class="well well-lg text-center">
+
+			Loses:
+			<span id="lose">0</span>
+		</div>
+</div>
+
+</div>
+
+<div class="row">
+	
+	<div class="col-md-2">
+	<div class="well well-lg text-center">
+		Target Score
+		<br>
+		<span id="targetScore">0</span>
+	</div>
+	</div>
+
+<div class="col-md-8">
+		<div class="well well-lg text-center">
+			<div class="row">
+				<div class="col-md-3">
+					<img class="img-responsive" id="red" src="assets/images/redcrystals.jpg">
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive" id="blue" src="assets/images/bluecrystal.jpg">
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive" id="green" src="assets/images/greencrystal.jpg">
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive" id = "yellow" src="assets/images/yellowcrystal.jpg">
+				</div>
+			</div>
+	
+		</div>
+</div>
+
+<div class="col-md-2">
+	<div class="well well-lg text-center">
+		Your Score
+		<span id="yourScore">0</span>
+	</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="crystal.js"></script> 
+
+</body>
+
+</html>
